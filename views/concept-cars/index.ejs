@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+</head>
+<body>
+    <!-- <form method="GET" action="/cars">
+        <label for="nameFilter">Filter by Name</label>
+        <input id="nameFilter" type="text" name="nameFilter">
+        <input type="submit">
+    </form> -->
+ 
+
+    <ul class="listings">
+        <% myCars.forEach(function(cars) { %>
+        <li class="list"><%= cars.make %> - <%= cars.model %> <img src="<%= cars.img_url %>" alt="" class="car-img"></li>
+        <% }); %>
+    </ul>
+</body>
+</html>

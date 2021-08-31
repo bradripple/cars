@@ -1,0 +1,32 @@
+[
+    {
+      "make":"Lamborghini",
+      "model": "LM002",
+      "year": "1986",
+      "img_url":"https://i.ibb.co/Gcyxzg9/1986-lamborghini-lm002-1.jpg"
+    },
+    {
+      "make":"Surbaru",
+      "model": "Brat",
+      "year": "1980",
+      "img_url":"https://i.ibb.co/3d3W6sx/brat.webp"
+    },
+    {
+      "make":"Stout",
+      "model": "Scarab",
+      "year": "1930",
+      "img_url":"https://i.ibb.co/m8LTf85/stout.webp"
+    },
+    {
+      "make":"BMW",
+      "model": "Isetta 300",
+      "year": "1950",
+      "img_url":"https://i.ibb.co/McSJDjT/1956-bmw-isetta-2-1600x0.webp"
+    },
+    {
+      "make":"Buick",
+      "model": "Centurion",
+      "year": "1956",
+      "img_url":"https://i.ibb.co/KNWgB9V/Buick.jpg"
+    }
+  ]

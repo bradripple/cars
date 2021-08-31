@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="form-container">
+        <form method="POST" class="create-car" action="/user-favs<%=carsId%>/?_method=PUT">
+            <label for="carMake" class="create-car">Make</label>
+            <input id="carMake" type="text" name="make" class="create-car" value="<%= cars.make %>">
+    
+            <label for="carModel" class="create-car">Model</label>
+            <input id="carModel" type="text" name="model" class="create-car" value="<%= cars.model %>">
+    
+            <label for="carYear" class="create-car">Year</label>
+            <input id="carYear" type="text" name="year" class="create-car" value="<%= cars.year %>">
+    
+            <label for="carImgUrl" class="create-car">Img URL</label>
+            <input id="carImgUrl" type="text" name="img_url" class="create-car" value="<%= cars.img_url %>">
+    
+    
+            <input type="submit" id="bttn">
+    
+        </form>
+    </div>
+</body>
+</html>

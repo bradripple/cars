@@ -1,0 +1,32 @@
+[
+    {
+      "make":"Ford",
+      "model": "Boss 429 Mustang",
+      "year": "1969",
+      "img_url":"https://i.ibb.co/jWjNV1b/1969-Boss-429-Mustang.jpg"
+    },
+    {
+      "make":"Chevrolet",
+      "model": "Corvette Sting Ray",
+      "year": "1963",
+      "img_url":"https://i.ibb.co/mHQXryK/1963-Corvette-Sting-Ray.jpg"
+    },
+    {
+      "make":"Aston Martin",
+      "model": "DB5",
+      "year": "1964",
+      "img_url":"https://i.ibb.co/MhCSm5v/1963-Aston-Martin-DB5.jpg"
+    },
+    {
+      "make":"Mercedes",
+      "model": "300SL Gullwing",
+      "year": "1957",
+      "img_url":"https://i.ibb.co/dbwS8gR/Mercedes-300-SL-Gullwing.jpg"
+    },
+    {
+      "make":"Ferrari",
+      "model": "Dino 246 GT",
+      "year": "1969",
+      "img_url":"https://i.ibb.co/7v1v0Df/1969-Ferrari-Dino-246-GT.jpg"
+    }
+  ]

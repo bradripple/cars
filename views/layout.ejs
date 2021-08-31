@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Catalog</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+        body {
+            margin: 0;
+            background: #222;
+            font-family: 'Alfa Slab One', cursive;
+            font-weight: 300;
+            color: #bfc1c2;
+            text-decoration: none;
+        }
+    
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #375A81;
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            border-style: groove;
+            border-radius: 4px;
+            color: #bfc1c2;
+            text-decoration: none;
+
+        }
+
+        .header{
+            text-decoration: none;
+        }
+
+        #header {
+            color: #bfc1c2;
+            text-decoration: none;
+            
+        }
+
+        #header:hover {
+            color: rgb(0, 255, 242, .4)
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            background-color: #34557A;
+            border-style: groove;
+            border-radius: 4px;
+        }
+
+        nav li {
+            color: #bfc1c2;
+            text-align: center;
+            margin: 10px 5px 10px 0px;
+            padding: 5px;
+            background-color: rgb(93, 137, 186, .6);
+            border-radius: 12px;
+            box-shadow: 1px 4px rgb(191, 193, 194, .4);
+            border-style: inset;
+
+        }
+
+        nav li:hover {
+            /* background-color: #5DBAB2; */
+            background-color: rgb(0, 255, 242, .4);
+            box-shadow: 1px 4px rgb(93, 137, 186, .6);
+            border-style: outset;
+            /* flex-grow: 1; */
+        }
+
+        nav a {
+            color: #bfc1c2;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        /* a:hover {
+            color: #34557A;
+        } */
+        .car-img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            margin-top: 25px;
+            max-width: 600px;
+            min-width: 600px;
+        }
+
+        .listings {
+            list-style: none;
+        }
+
+        .list {
+            text-align: center;
+            font-size: 33px;
+            margin-top: 60px;
+        }
+
+        .create-car form {
+            /* display: flex;
+            flex-direction: column; */
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .create-car input {
+            display: block;
+            width: 40%;
+            margin: 10px 0;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        .create-car label{
+            display: block;
+            margin-top: 24px;
+        }
+
+        .bttn-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .bttn {
+            width: 250px;
+            /* height: 35px; */
+        }
+
+        #bttn {
+            display: inline;
+            color: #bfc1c2;
+            text-align: center;
+            margin: 15px 5px 30px 0px;
+            padding: 5px;
+            background-color: rgb(93, 137, 186, .6);
+            border-radius: 12px;
+            box-shadow: 1px 4px rgb(191, 193, 194, .4);
+            border-style: inset;
+            cursor: pointer; 
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 20px;
+            border-color: #bfc1c2;
+
+        }
+        #bttn:hover {
+            /* background-color: #5DBAB2; */
+            background-color: rgb(0, 255, 242, .4);
+            box-shadow: 1px 4px rgb(93, 137, 186, .6);
+            border-style: outset;
+            /* flex-grow: 1; */
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="header"><h1 id="header">Car Catalog</h1></a>
+        </header>
+        <nav>
+                <ul>
+                    <li><a href="/vintage-cars">Vintage Cars</a></li>
+                    <li><a href="/strange-cars">Strange Cars</a></li>
+                    <li><a href="/concept-cars">Concept Cars</a></li>
+                    <li><a href="/user-favs">User Favorites</a></li>
+                    <li><a href="/user-favs/new">Submit Favorite</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <%- body %>
+</body>
+
+</html>
