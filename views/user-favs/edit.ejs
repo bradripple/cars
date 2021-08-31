@@ -9,7 +9,7 @@
 <body>
 
     <div class="form-container">
-        <form method="POST" class="create-car" action="/user-favs<%=carsId%>/?_method=PUT">
+        <form method="POST" id="form" class="create-car" action="/user-favs/<%=carsId%>/?_method=PUT">
             <label for="carMake" class="create-car">Make</label>
             <input id="carMake" type="text" name="make" class="create-car" value="<%= cars.make %>">
     
