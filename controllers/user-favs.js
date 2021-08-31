@@ -31,16 +31,18 @@ router.get('/edit/:idx', function(req, res) {
 });
 
 router.put('/:idx', function(req, res) {
+    // get the data
     let cars = fs.readFileSync('./user-favs.json');
+    // parse the data -> put the data in a readable/useable form
     let carsData = JSON.parse(cars);
 
-    // re-assign the name and type fields of the dinosaur to be edited 
+    // re-assign the data fields of the cars to be edited 
     carsData[req.params.idx].make = req.body.make;
     carsData[req.params.idx].model = req.body.model;
     carsData[req.params.idx].year = req.body.year;
     carsData[req.params.idx].img_url = req.body.img_url;
 
-    // save the edited dinosaurs to the data.json file
+    // save the edited cars to the data.json file and re-stringify the data
     fs.writeFileSync('./user-favs.json', JSON.stringify(carsData));
     res.redirect('/user-favs');
 });
